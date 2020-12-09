@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"type": "shell",
+			"command":"cd build; cmake .. -DCMAKE_BUILD_TYPE=Debug -DFORCE_DEBUG_BUILD=True; make -j4",
+			"args": [
+			],
+			// "problemMatcher": [
+			// 	"$catkin-gcc"
+			// ],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+		},
+	]
+}

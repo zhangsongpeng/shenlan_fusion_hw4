@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cpp: ins",
+            "type": "cppdbg",
+            "request": "launch",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/build/ins",
+            "MIMode": "gdb",
+            "externalConsole": false, 
+            "preLaunchTask": "build", 
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            // "args": [
+            //     // "/home/zsp/Desktop/test0522.bag"
+            //     "/home/zsp/Desktop/robosense.bag"
+            //     // "/media/zsp/D/bag/0629/test1/3.bag"
+            // ]
+
+        },
+    ]
+}

@@ -1,0 +1,4 @@
+gyro_noise: 0.01
+acc_noise: 0.1
+dp_noise: 0.1
+dphi_noise: 0.02
